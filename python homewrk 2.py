@@ -30,7 +30,7 @@ if op == "tan":
      result = math.tan(math.radians(num))
      print(result)
 if op == "cot":
-         result = math.cot(math.radians(num))
+         result = 1/math.tan(math.radians(num))
          print(result)
 break
 '''
