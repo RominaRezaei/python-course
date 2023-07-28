@@ -27,9 +27,15 @@ if op == "cos":
       print(result)
 
 if op == "tan":
+  if math.cos == 0
+   result = "infinity"
+    else:
      result = math.tan(math.radians(num))
      print(result)
 if op == "cot":
+  if tan == 0:
+   result = "infinity"
+    else:
          result = 1/math.tan(math.radians(num))
          print(result)
 break
